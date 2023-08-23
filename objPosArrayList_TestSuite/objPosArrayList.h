@@ -8,7 +8,7 @@
 class objPosArrayList
 {
     private:
-        objPos* list;
+        objPos* aList;
         int sizeList;
         int sizeArray;
 
