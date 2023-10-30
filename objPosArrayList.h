@@ -8,9 +8,9 @@
 class objPosArrayList
 {
     private:
-        objPos* list;
-        int listSize;
-        int arrayCapacity;
+        objPos* aList;
+        int sizeList;
+        int sizeArray;
 
     public:
         objPosArrayList();
@@ -25,7 +25,6 @@ class objPosArrayList
         void getHeadElement(objPos &returnPos);
         void getTailElement(objPos &returnPos);
         void getElement(objPos &returnPos, int index);
-
 };
 
 #endif
