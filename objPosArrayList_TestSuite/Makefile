@@ -1,9 +1,9 @@
 CC=g++
-CFLAGS=-I. -lm
+CFLAGS=-I. -lm -g
 DEPS = *.h
 OBJ = objPos.o objPosArrayList.o Test.o
 
-%.o: %.c $(DEPS)
+%.o: %.cpp $(DEPS)
 	$(CC) -c -o $@ $< $(CFLAGS)
 
 ALTester: $(OBJ)
